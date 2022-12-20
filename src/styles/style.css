@@ -1,0 +1,22 @@
+/* Header */
+
+.Rectangle8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 372px;
+  width: auto;
+  height: 196px;
+  background: #fd9255;
+  color: #ffffff;
+}
+.barraNav {
+  display: flex;
+  list-style: none;
+  /* margin: 376px; */
+  justify-content: space-between;
+  gap: 65px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+}
