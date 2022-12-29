@@ -6,7 +6,7 @@ const Header = () => {
       {/* <h2>Header</h2> */}
       <nav className="Rectangle8">
         <article className="paraImg">
-          <img src={images.img1} alt="" />
+          <img src={images[0].img1} alt="" />
         </article>
         <article className="barraNav">
           <li>How We Work</li>

@@ -1,16 +1,24 @@
-import React from 'react'
+import React from "react";
+import Cards from "./Cards";
+import Sumary from "./Sumary";
 
 const Contenido = () => {
   return (
     <>
-      <h1>What items to store?</h1>
-      <h3>
-        Select which items you wish to store before moving to your new home.
-        We’ll keep ’em safe!
-      </h3>
-      <h2>Summary</h2>
+      <article className="titulos">
+        <h1 className="tituloUno">What items to store?</h1>
+        <h3 className="tituloDos">
+          Select which items you wish to store before moving to your new home.
+          We’ll keep ’em safe!
+        </h3>
+      </article>
+      <Cards />
+      <h2 className="titleSum">Sumary</h2>
+      <section className="contenedorSum">
+        <Sumary />
+      </section>
     </>
   );
-}
+};
 
-export default Contenido
+export default Contenido;
